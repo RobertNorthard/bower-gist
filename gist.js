@@ -11,13 +11,13 @@ var gist = (function($) {
     client.create = function(name, description, data, success, error) {
 
         var payload = {
-            "description": description,
-            "files": {
-                "file1.txt": {
-                    "content": data
-                }
-            }
+            description: description,
+            files: { }
         };
+
+        payload.files[name] = {
+        	content: data
+		};
 
         $.ajax({
                 url: 'https://api.github.com/gists',
