@@ -1,6 +1,6 @@
 /*
  *  author: Robert Northard
- *  version: 1.0.0
+ *  version: 1.1.0
  */
 'use strict'
 
@@ -17,7 +17,7 @@ var gist = (function($) {
 
         payload.files[name] = {
         	content: data
-		};
+        };
 
         $.ajax({
                 url: 'https://api.github.com/gists',
