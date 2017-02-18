@@ -31,7 +31,7 @@ A JavaScript library for creating anonymous gists.
               console.log(e);
           });
 
-See [demo](https://github.com/RobertNorthard/bower-gist/test.html) for a demo of this code.
+See [demo](https://github.com/RobertNorthard/bower-gist/blob/master/test.html) for a demo of this code.
 
 # Contribute
 
