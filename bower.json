@@ -2,7 +2,6 @@
   "name": "gist-client",
   "homepage": "https://github.com/RobertNorthard/bower-gist",
   "authors": [
-    "Robert Northard <robertnorthard@googlemail.com>"
   ],
   "description": "A GitHub Gist client library.",
   "main": "gist.js",
